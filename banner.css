@@ -1,0 +1,78 @@
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+  }
+.main {
+    width: 1510px;
+    height: 442px;
+    position: relative;
+    opacity: .5;
+    background-color: gray;
+}
+.frame {
+    width: 1510px;
+    height: 442px;
+    position: absolute;
+    background-image: url(./src/image.svg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+.title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.line {
+    width: 170px;
+    border: 1px;
+    border: 1px solid white;
+    margin-left: 671px;
+    margin-right: 669px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: white;
+    margin-bottom: 83px;
+}
+.btn:hover {
+    background: white;
+}
+.click {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    border: 2px solid white;
+    width: 370px;
+    height: 58px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.2s linear;
+}

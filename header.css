@@ -1,0 +1,40 @@
+.main {
+  width: 1510px;
+  height: 75px;
+  background-color: black;
+}
+.logo {
+  width: 183.1px;
+  height: 74.85px;
+  margin-left: 115.84px;
+  padding-top: 22.46px;
+}
+.menu {
+  width: 570px;
+  height: 75px;
+  margin-left: 770px;
+  margin-right: 170px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.click:active {
+  color: black;
+}
+.click:hover {
+  background: red;
+}
+.click {
+  width: 113.8px;
+  height: 75px;
+  border: none;
+  background-color: black;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: -97.5px;
+  cursor: pointer;
+}

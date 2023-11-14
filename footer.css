@@ -1,0 +1,35 @@
+.frame {
+  width: 1510px;
+  height: 164px;
+  top: 5384px;
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.pic:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.pic {
+  transition: all 0.5s linear;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 32.8px;
+  padding-top: 35px;
+}
+.text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #ffffff50;
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  margin-bottom: 0px;
+  padding-bottom: 27px;
+}
